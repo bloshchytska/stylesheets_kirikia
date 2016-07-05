@@ -1986,13 +1986,6 @@
 		position: relative;
 	}
 
-        article img {
-            display:block;
-            max-width:100%;
-            height:auto;
-            margin-bottom:1.875em
-        }
-
 	.image:before {
 		-moz-transition: opacity 0.2s ease-in-out;
 		-webkit-transition: opacity 0.2s ease-in-out;
@@ -2487,10 +2480,11 @@
 		}
 
 			.features article .image img {
-				display: block;
-				width: 100%;
+				display:block;
+            			max-width:100%;
+            			height:auto;
+            			margin-bottom:1.875em
 			}
-
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;

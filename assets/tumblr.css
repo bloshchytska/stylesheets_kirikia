@@ -24,6 +24,8 @@ url(data:application/octet-stream;base64,AAEAAAAOAIAAAwBgT1MvMlZjYWMAAADsAAAAVmN
 	text-transform:none;
 	line-height:1em;
 	margin-left:.2em
+		display:none;
+    visibility: hidden;
 	}
 
 .icon-youtube:before{
@@ -209,8 +211,6 @@ a#CDT{
 	background:rgba(0,0,0,.4) !important;
 	border:1px solid rgba(0,0,0,0.18) !important;
 	box-shadow:none !important;opacity:0
-		display:none;
-    visibility: hidden;
 }
 
 a#CDT:hover{opacity:1 !important}

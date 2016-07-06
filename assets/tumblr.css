@@ -325,7 +325,10 @@ a.click-ask,a.click-submit{cursor:pointer}
 #Z,#PG{opacity:0}
 
 #Z,#PG,#loading{-webkit-transition:opacity 1s linear;transition:opacity 1s linear}
-
+#lrn, #ncl {
+	display:none;
+    visibility: hidden;
+}
 #infscr-loading{position:absolute;bottom:-50px;left:50%;margin:0 0 0 -12px}
 
 #loading{

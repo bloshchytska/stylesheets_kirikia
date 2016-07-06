@@ -108,16 +108,14 @@ url(data:application/octet-stream;base64,AAEAAAAOAIAAAwBgT1MvMlZjYWMAAADsAAAAVmN
 button.mfp-arrow{
 	overflow:visible;cursor:pointer;background:transparent;
 	border:0;-webkit-appearance:none;
-	display:none;
+	display:block;
 	z-index:1046;
 	-webkit-box-shadow:none;
 	box-shadow:none;padding:0
-   visibility: hidden;
 }
 button::-moz-focus-inner{
 	border:0;
 	padding:0
-	
 }
 .mfp-counter{position:absolute;top:0;right:0;color:#ccc;font-size:12px;line-height:18px}
 .mfp-arrow{position:absolute;opacity:.5;top:50%;width:90px;height:110px;-webkit-tap-highlight-color:rgba(0,0,0,0);margin:-55px 0 0;padding:0}
@@ -211,6 +209,8 @@ a#CDT{
 	background:rgba(0,0,0,.4) !important;
 	border:1px solid rgba(0,0,0,0.18) !important;
 	box-shadow:none !important;opacity:0
+		display:none;
+    visibility: hidden;
 }
 
 a#CDT:hover{opacity:1 !important}
@@ -351,8 +351,3 @@ li.r-s{display:block !important}
 @media screen and (max-width:500px){body{-webkit-overflow-scrolling:touch}
 .X{max-width:400px}}
 @media screen and (max-width:350px){.X{max-width:300px}}
-
-button {
-	display:none;
-    visibility: hidden;
-}

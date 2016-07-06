@@ -347,13 +347,21 @@ a.click-ask,a.click-submit{cursor:pointer}
 	display:table-row width: 100%
 }
 .footer-wrapper{
-	margin:auto;padding:20px 40px;
-	text-align:center;border-top-width:1px;
+	margin:auto;
+	padding:20px 40px;
+	text-align:center;
+	border-top-width:1px;
 	border-top-style:solid
-	
 }
-.footer-wrapper{
-	padding:20px
+
+@media screen and (-moz-min-device-pixel-ratio: 1.5),screen and (-o-min-device-pixel-ratio: 3/2),screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-devicepixel-ratio: 1.5),screen and (min-resolution: 1.5dppx){
+	.logo:before{
+		position:absolute;right:0;left:0;width:100%;height:100%;content:"";background-repeat:no-repeat;background-position:50%;background-size:cover;background-size:cover}}@media screen and (max-width: 600px){
+	.content-wrapper{padding:0 20px 1.875em
+	}
+	.footer-wrapper{
+		padding:20px
+	}
 }
 
 @media screen and (max-width:800px){#A-S{display:none}

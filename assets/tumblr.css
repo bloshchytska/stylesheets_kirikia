@@ -108,7 +108,7 @@ url(data:application/octet-stream;base64,AAEAAAAOAIAAAwBgT1MvMlZjYWMAAADsAAAAVmN
 button.mfp-arrow{
 	overflow:visible;cursor:pointer;background:transparent;
 	border:0;-webkit-appearance:none;
-	display:none;
+	display:block;
 	z-index:1046;
 	-webkit-box-shadow:none;
 	box-shadow:none;padding:0

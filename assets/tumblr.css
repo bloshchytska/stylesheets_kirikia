@@ -107,9 +107,17 @@ url(data:application/octet-stream;base64,AAEAAAAOAIAAAwBgT1MvMlZjYWMAAADsAAAAVmN
 .mfp-preloader a:hover{color:#fff}
 button.mfp-arrow{
 	overflow:visible;cursor:pointer;background:transparent;
-	border:0;-webkit-appearance:none;display:block;z-index:1046;-webkit-box-shadow:none;box-shadow:none;padding:0
+	border:0;-webkit-appearance:none;
+	display:none;
+	z-index:1046;
+	-webkit-box-shadow:none;
+	box-shadow:none;padding:0
 }
-button::-moz-focus-inner{border:0;padding:0}
+button::-moz-focus-inner{
+	border:0;
+	padding:0
+	
+}
 .mfp-counter{position:absolute;top:0;right:0;color:#ccc;font-size:12px;line-height:18px}
 .mfp-arrow{position:absolute;opacity:.5;top:50%;width:90px;height:110px;-webkit-tap-highlight-color:rgba(0,0,0,0);margin:-55px 0 0;padding:0}
 .mfp-arrow:active{margin-top:-54px}

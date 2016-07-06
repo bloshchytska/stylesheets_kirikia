@@ -1,11 +1,11 @@
 footer 	{
-	font:inherit;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	vertical-align:baseline;
-	border:0;
-	display: block;
+	font:inherit !important;
+	font-size:100% !important;
+	margin:0 !important;
+	padding:0 !important;
+	vertical-align:baseline !important;
+	border:0 !important;
+	display: block !important
 }
 
 @font-face{
@@ -343,15 +343,15 @@ a.click-ask,a.click-submit{cursor:pointer}
 }
 
 #footer{
-	font-size:0.8125em;
-	display:table-row width: 100%
+	font-size:0.8125em !important;
+	display:table-row width: 100% !important
 }
 .footer-wrapper{
-	margin:auto;
-	padding:20px 40px;
-	text-align:center;
-	border-top-width:1px;
-	border-top-style:solid
+	margin:auto !important;
+	padding:20px 40px !important;
+	text-align:center !important;
+	border-top-width:1px !important;
+	border-top-style:solid !important
 }
 
 @media screen and (max-width:800px){#A-S{display:none}

@@ -322,7 +322,7 @@ a.click-ask,a.click-submit{cursor:pointer}
 
 #loading{
 	position:absolute;width:36px;height:36px;top:300px;left:50%;margin:-18px 0 0 -18px;z-index:100;
-	background:url('https://rawgit.com/mihaiyakirikia/stylesheets_kirikia/master/assets/ajax-loader.gif') no-repeat center #fff;
+	background:url('http://static.tumblr.com/j6tha7z/AFfmuponn/ajax-loader.gif') no-repeat center #fff;
 	filter:alpha(opacity = 0)
 }
 

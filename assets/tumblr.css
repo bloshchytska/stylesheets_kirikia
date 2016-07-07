@@ -342,17 +342,6 @@ a.click-ask,a.click-submit{cursor:pointer}
 	filter:alpha(opacity = 0)
 }
 
-#footer{
-	font-size:0.8125em !important;
-	display:table-row width: 100% !important
-}
-.footer-wrapper{
-	margin:auto !important;
-	padding:20px 40px !important;
-	text-align:center !important;
-	border-top-width:1px !important;
-	border-top-style:solid !important
-}
 
 @media screen and (max-width:800px){#A-S{display:none}
 #Z-C{margin:0 0 0 250px}

@@ -2680,7 +2680,6 @@ article figure{width:100%;margin-bottom:1.875em}
 		background: #fafafa;
 		border-top: 0;
 		color: #c0c0c0;
-		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
 
@@ -2691,7 +2690,7 @@ article figure{width:100%;margin-bottom:1.875em}
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #F4E8DD;
+			
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;

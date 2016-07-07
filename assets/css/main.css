@@ -3330,22 +3330,19 @@ article figure{width:100%;margin-bottom:1.875em}
 			}
 
 		/* Footer */
-
-			#footer {
-				text-align: center;
-			}
-
-				#footer .copyright li {
-					border-left: 0;
-					display: block;
-					line-height: 1.75em;
-					margin: 0.75em 0 0 0;
-					padding-left: 0;
-				}
-
-					#footer .copyright li:first-child {
-						margin-top: 0;
-					}
+		#footer{
+			font-size:0.8125em;
+			display:table-row;
+			width: 100%
+			
+		}
+		.footer-wrapper{
+			margin:auto;
+			padding:20px 40px;
+			text-align:center;
+			border-top-width:1px;
+			border-top-style:solid
+		}
 
 		/* Off-Canvas Navigation */
 

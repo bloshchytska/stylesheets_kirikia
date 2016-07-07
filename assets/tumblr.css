@@ -222,10 +222,7 @@ a.click-ask,a.click-submit{cursor:pointer}
 .fade-submit iframe{width:420px;height:500px}
 
 #Z-C{position:relative;margin:0 260px}
-#Z{
-	margin:0 auto 320px auto !important;
-	padding:30px 0
-}
+#Z{margin:0 auto 320px auto;padding:30px 0}
 #sidebar,#A-S{position:fixed;width:250px;height:100%}
 #sidebar{top:0;left:0;overflow:hidden}
 #A-S{padding:30px 0 0;right:0}
@@ -268,7 +265,7 @@ a.click-ask,a.click-submit{cursor:pointer}
 #Z.margin-small #post-info,#Z.margin-small .X{margin:0 10px 20px 10px}
 #Z.margin-medium #post-info,#Z.margin-medium .X{margin:0 15px 30px 15px}
 #Z.margin-large #post-info,#Z.margin-large .X{margin:0 20px 40px 20px}
-#Z.margin-huge #post-info,#Z.margin-huge .X{margin:0 25px 50px 25px}
+#Z.margin-huge #post-info,#Z.margin-huge .X{margin:0 25px 250px 25px}
 #post-info{line-height:2em;padding:0 0 20px 0}
 .X .M iframe{width:100%;display:block}
 .X .T h2{margin:0 0 15px 0}

@@ -222,7 +222,7 @@ a.click-ask,a.click-submit{cursor:pointer}
 .fade-submit iframe{width:420px;height:500px}
 
 #Z-C{position:relative;margin:0 260px}
-#Z{margin:0 auto 320px auto;padding:30px 0}
+#Z{margin:0 auto 120px auto;padding:30px 0}
 #sidebar,#A-S{position:fixed;width:250px;height:100%}
 #sidebar{top:0;left:0;overflow:hidden}
 #A-S{padding:30px 0 0;right:0}
